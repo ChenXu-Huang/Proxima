@@ -1,0 +1,177 @@
+{
+  "extName": { "message": "Proxima" },
+  "extDescription": {
+    "message": "A modern, friendly popup for configuring the browser's native proxy settings."
+  },
+  "actionTitle": { "message": "Proxima — Proxy settings" },
+  "uiLocale": { "message": "en" },
+
+  "statusCurrentLabel": { "message": "Browser setting" },
+  "statusControlManaged": { "message": "Managed by Proxima" },
+  "statusControlUnowned": { "message": "Not managed by an extension" },
+  "statusControlOther": { "message": "Controlled by another extension" },
+  "statusControlLocked": { "message": "Managed by browser policy" },
+  "statusControlUnknown": { "message": "Status unavailable" },
+
+  "statusModeDirect": { "message": "Direct" },
+  "statusModeSystem": { "message": "System proxy" },
+  "statusModeAutoDetect": { "message": "Auto-detect" },
+  "statusModePac": { "message": "PAC" },
+  "statusModeManual": { "message": "Manual proxy" },
+  "statusHttpsShared": { "message": "HTTPS shared" },
+  "statusManualEmpty": { "message": "No proxy server configured" },
+  "statusBypassCount": { "message": "$1 bypass rule(s)" },
+  "statusReading": { "message": "Reading browser settings…" },
+  "statusRefresh": { "message": "Re-read browser setting" },
+  "statusDirty": { "message": "Unapplied changes" },
+  "statusInSync": { "message": "Browser setting and form match" },
+  "statusApplying": { "message": "Applying…" },
+  "statusErrorCount": { "message": "$1 field(s) need attention" },
+  "statusDraftSummary": { "message": "Unapplied: $1" },
+
+  "statusUnknownTitle": { "message": "This proxy configuration can't be edited here" },
+  "statusUnknownBody": {
+    "message": "It may be managed by another program or use an unsupported proxy mode. Change it in the browser settings first, then retry."
+  },
+  "statusPolicyTitle": { "message": "Proxy settings are managed by policy" },
+  "statusPolicyBody": {
+    "message": "Your organization's browser policy controls the proxy. Proxima can't change it."
+  },
+  "statusOtherExtensionTitle": { "message": "Another extension is controlling the proxy" },
+  "statusOtherExtensionBody": {
+    "message": "Applying here may be overridden. Proxima will verify the result after applying."
+  },
+  "statusUnsupportedTitle": { "message": "Proxy settings aren't supported on this platform" },
+  "statusUnsupportedBody": {
+    "message": "Firefox for Android doesn't support changing the proxy from an extension. Use Proxima on desktop."
+  },
+
+  "statusPrivateGateTitle": { "message": "One more step" },
+  "statusPrivateGateBody": {
+    "message": "Firefox only lets an extension change the global proxy setting when it's allowed in private windows — even if you don't use private windows."
+  },
+  "statusPrivateGateStep1": { "message": "Open about:addons in a new tab." },
+  "statusPrivateGateStep2": { "message": "Select Proxima, then open Details." },
+  "statusPrivateGateStep3": { "message": "Turn on “Run in Private Windows” and allow it." },
+  "statusPrivateGateStep4": { "message": "Come back here and click Re-check." },
+  "statusPrivateGateRecheck": { "message": "Re-check" },
+  "statusPrivateGateHelp": { "message": "How to allow extensions in private windows" },
+  "statusPrivateGateStill": {
+    "message": "Still not allowed. Follow the steps above, then re-check."
+  },
+  "statusPrivateGateGranted": { "message": "Permission granted" },
+
+  "statusRefreshed": { "message": "Browser setting refreshed" },
+  "statusDraftRestored": { "message": "Restored your unapplied edits" },
+  "statusResetDone": { "message": "Reverted to the browser setting" },
+  "statusApplySuccess": { "message": "Proxy setting applied" },
+  "statusApplyWarning": {
+    "message": "Applied, but the browser reports another controller. Check the setting or retry."
+  },
+  "statusApplyUnverified": {
+    "message": "Applied, but the new state couldn't be read back."
+  },
+  "statusApplyRefused": {
+    "message": "The browser refused the change. Another extension or policy may be in control."
+  },
+
+  "modeSection": { "message": "Connection method" },
+  "modeDirectTitle": { "message": "Direct" },
+  "modeDirectDesc": { "message": "No proxy" },
+  "modeManualTitle": { "message": "Manual proxy" },
+  "modeManualDesc": { "message": "HTTP or SOCKS server" },
+  "modeSystemTitle": { "message": "Use system proxy" },
+  "modeSystemDesc": { "message": "Follow the operating system" },
+  "modePacTitle": { "message": "Automatic configuration" },
+  "modePacDesc": { "message": "PAC script URL" },
+  "modeAutoDetectTitle": { "message": "Auto-detect" },
+  "modeAutoDetectDesc": { "message": "WPAD on this network" },
+
+  "manualHttpTitle": { "message": "HTTP proxy" },
+  "manualHttpsTitle": { "message": "HTTPS proxy" },
+  "manualSocksTitle": { "message": "SOCKS proxy (optional)" },
+  "manualSocksVersion": { "message": "SOCKS version" },
+  "manualSocks4": { "message": "SOCKS v4" },
+  "manualSocks5": { "message": "SOCKS v5" },
+  "manualProxyDns": { "message": "Resolve DNS through the proxy" },
+  "manualProxyDnsHint": {
+    "message": "Keeps DNS lookups off your local network when using SOCKS."
+  },
+  "manualHost": { "message": "Host" },
+  "manualPort": { "message": "Port" },
+  "manualHostPlaceholder": { "message": "127.0.0.1" },
+  "manualPortPlaceholder": { "message": "7890" },
+  "manualShareHttps": { "message": "Also use this proxy for HTTPS" },
+  "manualAdvanced": { "message": "Advanced settings" },
+  "manualAdvancedBypassCount": { "message": "$1 bypass rule(s)" },
+  "manualHttpsSeparate": { "message": "Separate HTTPS proxy" },
+  "manualHttpsSeparateHint": {
+    "message": "Fill this in to use a different proxy for HTTPS. It disables the shared HTTPS option."
+  },
+  "manualShareDisabledHint": {
+    "message": "Clear the separate HTTPS proxy to share the HTTP one."
+  },
+  "manualBypass": { "message": "Bypass list" },
+  "manualBypassHint": {
+    "message": "Hosts, domains or CIDR ranges that connect directly. localhost, 127.0.0.1 and ::1 always bypass the proxy."
+  },
+  "manualBypassPlaceholder": { "message": "example.com, .local, 192.168.0.0/16" },
+  "manualBypassAdd": { "message": "Add a bypass rule" },
+  "manualRemoveBypass": { "message": "Remove $1" },
+  "manualAutoLogin": {
+    "message": "Don't prompt for authentication when the password is saved"
+  },
+  "manualAutoLoginHint": { "message": "Firefox will use saved proxy credentials silently." },
+  "manualOptional": { "message": "Optional" },
+  "manualAtLeastOne": { "message": "Enter an HTTP or SOCKS proxy server." },
+  "manualShareNeedsHttp": {
+    "message": "Add an HTTP proxy before sharing it with HTTPS."
+  },
+  "manualPacTitle": { "message": "PAC URL" },
+  "manualPacUrl": { "message": "PAC script URL" },
+  "manualPacPlaceholder": { "message": "https://example.com/proxy.pac" },
+  "manualPacHint": {
+    "message": "Use an http(s) URL. Extensions can't force a PAC reload; re-apply after editing the file."
+  },
+  "manualPacRequired": { "message": "Enter a PAC URL." },
+  "manualPacInvalid": { "message": "Enter a valid http(s) PAC URL." },
+  "manualPacCredentials": {
+    "message": "PAC URLs can't include a username or password."
+  },
+  "manualHostRequired": { "message": "Enter a host." },
+  "manualHostInvalid": { "message": "Enter a valid hostname or IP address." },
+  "manualPortRequired": { "message": "Enter a port." },
+  "manualPortInvalid": { "message": "Port must be between 1 and 65535." },
+  "manualBypassInvalid": { "message": "“$1” isn't a valid bypass rule." },
+
+  "actionApply": { "message": "Apply changes" },
+  "actionReapply": { "message": "Re-apply" },
+  "actionApplying": { "message": "Applying…" },
+  "actionReset": { "message": "Reset" },
+  "actionRetry": { "message": "Retry" },
+  "actionDiscard": { "message": "Discard" },
+  "actionRecheck": { "message": "Re-check" },
+
+  "errorReadTitle": { "message": "Couldn't read the proxy setting" },
+  "errorReadBody": {
+    "message": "Firefox may be using the system WPAD option, which the extension API can't read. Choose another proxy mode in Firefox settings, then retry."
+  },
+  "errorReadBodyGeneric": {
+    "message": "Proxima couldn't read the browser's current proxy setting. Retry; if it keeps failing, check for another extension or policy that manages the proxy."
+  },
+  "errorWriteTitle": { "message": "Couldn't apply the proxy setting" },
+  "errorPrivate": {
+    "message": "Firefox requires private-window permission before Proxima can change the proxy."
+  },
+  "errorPolicy": {
+    "message": "Proxy settings are managed by policy and can't be changed here."
+  },
+  "errorUnsupported": { "message": "Proxy settings aren't supported on this platform." },
+  "errorNotApplied": { "message": "The browser didn't accept the change." },
+  "errorGeneric": { "message": "Something went wrong." },
+  "errorDetails": { "message": "Technical details" },
+
+  "a11yModeGroup": { "message": "Proxy mode" },
+  "a11yStatus": { "message": "Proxy status" },
+  "a11yManualSection": { "message": "Manual proxy settings" }
+}

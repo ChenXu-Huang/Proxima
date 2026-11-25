@@ -1,0 +1,163 @@
+{
+  "extName": { "message": "Proxima" },
+  "extDescription": { "message": "用更现代、更清晰的界面配置浏览器原生代理。" },
+  "actionTitle": { "message": "Proxima — 代理设置" },
+  "uiLocale": { "message": "zh-CN" },
+
+  "statusCurrentLabel": { "message": "浏览器当前" },
+  "statusControlManaged": { "message": "由 Proxima 管理" },
+  "statusControlUnowned": { "message": "未被扩展管理" },
+  "statusControlOther": { "message": "由其他扩展控制" },
+  "statusControlLocked": { "message": "受浏览器策略管理" },
+  "statusControlUnknown": { "message": "状态不可用" },
+
+  "statusModeDirect": { "message": "直连" },
+  "statusModeSystem": { "message": "跟随系统" },
+  "statusModeAutoDetect": { "message": "自动检测" },
+  "statusModePac": { "message": "PAC" },
+  "statusModeManual": { "message": "手动代理" },
+  "statusHttpsShared": { "message": "HTTPS 共用" },
+  "statusManualEmpty": { "message": "未配置代理服务器" },
+  "statusBypassCount": { "message": "$1 项绕过规则" },
+  "statusReading": { "message": "正在读取浏览器设置…" },
+  "statusRefresh": { "message": "重新读取浏览器设置" },
+  "statusDirty": { "message": "有未应用的更改" },
+  "statusInSync": { "message": "浏览器设置与表单一致" },
+  "statusApplying": { "message": "正在应用…" },
+  "statusErrorCount": { "message": "有 $1 项需要修正" },
+  "statusDraftSummary": { "message": "未应用：$1" },
+
+  "statusUnknownTitle": { "message": "无法在此编辑当前配置" },
+  "statusUnknownBody": {
+    "message": "它可能由其他程序设置，或使用了扩展不支持的代理方式。请先在浏览器设置中切换，然后重试。"
+  },
+  "statusPolicyTitle": { "message": "代理设置受策略管理" },
+  "statusPolicyBody": {
+    "message": "组织或系统的浏览器策略控制着代理设置，Proxima 无法修改。"
+  },
+  "statusOtherExtensionTitle": { "message": "另一个扩展正在控制代理" },
+  "statusOtherExtensionBody": {
+    "message": "在这里应用后可能被覆盖。Proxima 会在应用后回读结果。"
+  },
+  "statusUnsupportedTitle": { "message": "此平台不支持代理设置" },
+  "statusUnsupportedBody": {
+    "message": "Firefox for Android 不支持通过扩展修改代理。请在桌面版使用 Proxima。"
+  },
+
+  "statusPrivateGateTitle": { "message": "还需要一步" },
+  "statusPrivateGateBody": {
+    "message": "Firefox 只有在允许扩展于隐私窗口运行时，才允许修改全局代理设置——即使你不使用隐私窗口。"
+  },
+  "statusPrivateGateStep1": { "message": "在新标签页打开 about:addons。" },
+  "statusPrivateGateStep2": { "message": "选择 Proxima，进入“详情”。" },
+  "statusPrivateGateStep3": { "message": "打开“允许在隐私窗口运行”并选择允许。" },
+  "statusPrivateGateStep4": { "message": "回到这里，点击“重新检测”。" },
+  "statusPrivateGateRecheck": { "message": "重新检测" },
+  "statusPrivateGateHelp": { "message": "如何允许扩展在隐私窗口运行" },
+  "statusPrivateGateStill": { "message": "仍未获得权限。请按上面的步骤操作后再检测。" },
+  "statusPrivateGateGranted": { "message": "已获得权限" },
+
+  "statusRefreshed": { "message": "已重新读取浏览器设置" },
+  "statusDraftRestored": { "message": "已恢复上次未应用的编辑" },
+  "statusResetDone": { "message": "已恢复为浏览器当前设置" },
+  "statusApplySuccess": { "message": "代理设置已应用" },
+  "statusApplyWarning": {
+    "message": "已应用，但浏览器报告控制权仍在别处。请检查设置或重试。"
+  },
+  "statusApplyUnverified": { "message": "已应用，但无法回读新状态。" },
+  "statusApplyRefused": {
+    "message": "浏览器拒绝了修改，可能由其他扩展或策略控制。"
+  },
+
+  "modeSection": { "message": "连接方式" },
+  "modeDirectTitle": { "message": "直连" },
+  "modeDirectDesc": { "message": "不使用代理" },
+  "modeManualTitle": { "message": "手动代理" },
+  "modeManualDesc": { "message": "HTTP / SOCKS 服务器" },
+  "modeSystemTitle": { "message": "跟随系统" },
+  "modeSystemDesc": { "message": "使用操作系统设置" },
+  "modePacTitle": { "message": "自动配置" },
+  "modePacDesc": { "message": "PAC 脚本地址" },
+  "modeAutoDetectTitle": { "message": "自动检测" },
+  "modeAutoDetectDesc": { "message": "WPAD 自动发现" },
+
+  "manualHttpTitle": { "message": "HTTP 代理" },
+  "manualHttpsTitle": { "message": "HTTPS 代理" },
+  "manualSocksTitle": { "message": "SOCKS 代理（可选）" },
+  "manualSocksVersion": { "message": "SOCKS 版本" },
+  "manualSocks4": { "message": "SOCKS v4" },
+  "manualSocks5": { "message": "SOCKS v5" },
+  "manualProxyDns": { "message": "通过代理解析 DNS" },
+  "manualProxyDnsHint": {
+    "message": "使用 SOCKS 时，避免本地网络看到 DNS 查询。"
+  },
+  "manualHost": { "message": "主机" },
+  "manualPort": { "message": "端口" },
+  "manualHostPlaceholder": { "message": "127.0.0.1" },
+  "manualPortPlaceholder": { "message": "7890" },
+  "manualShareHttps": { "message": "HTTPS 也使用此代理" },
+  "manualAdvanced": { "message": "高级设置" },
+  "manualAdvancedBypassCount": { "message": "$1 项绕过" },
+  "manualHttpsSeparate": { "message": "HTTPS 单独代理" },
+  "manualHttpsSeparateHint": {
+    "message": "填写后，HTTPS 使用另一个代理；将取消“HTTPS 也使用此代理”。"
+  },
+  "manualShareDisabledHint": {
+    "message": "清空 HTTPS 单独代理后，才能与 HTTP 共用。"
+  },
+  "manualBypass": { "message": "绕过列表" },
+  "manualBypassHint": {
+    "message": "这些地址直连。localhost、127.0.0.1 和 ::1 始终不经过代理。"
+  },
+  "manualBypassPlaceholder": { "message": "example.com, .local, 192.168.0.0/16" },
+  "manualBypassAdd": { "message": "添加绕过规则" },
+  "manualRemoveBypass": { "message": "移除 $1" },
+  "manualAutoLogin": { "message": "已保存密码时不提示认证" },
+  "manualAutoLoginHint": { "message": "Firefox 会静默使用已保存的代理凭据。" },
+  "manualOptional": { "message": "可选" },
+  "manualAtLeastOne": { "message": "请至少填写 HTTP 或 SOCKS 代理。" },
+  "manualShareNeedsHttp": {
+    "message": "填写 HTTP 代理后才能让 HTTPS 共用。"
+  },
+  "manualPacTitle": { "message": "PAC 地址" },
+  "manualPacUrl": { "message": "PAC 脚本地址" },
+  "manualPacPlaceholder": { "message": "https://example.com/proxy.pac" },
+  "manualPacHint": {
+    "message": "请输入 http(s) 地址。扩展无法强制重新加载 PAC；修改文件后请重新应用。"
+  },
+  "manualPacRequired": { "message": "请输入 PAC 地址。" },
+  "manualPacInvalid": { "message": "请输入有效的 http(s) PAC 地址。" },
+  "manualPacCredentials": { "message": "PAC 地址不能包含用户名或密码。" },
+  "manualHostRequired": { "message": "请输入主机。" },
+  "manualHostInvalid": { "message": "请输入有效的主机名或 IP 地址。" },
+  "manualPortRequired": { "message": "请输入端口。" },
+  "manualPortInvalid": { "message": "端口必须是 1–65535 的整数。" },
+  "manualBypassInvalid": { "message": "“$1”不是有效的绕过规则。" },
+
+  "actionApply": { "message": "应用更改" },
+  "actionReapply": { "message": "重新应用" },
+  "actionApplying": { "message": "正在应用…" },
+  "actionReset": { "message": "重置" },
+  "actionRetry": { "message": "重试" },
+  "actionDiscard": { "message": "丢弃" },
+  "actionRecheck": { "message": "重新检测" },
+
+  "errorReadTitle": { "message": "无法读取代理设置" },
+  "errorReadBody": {
+    "message": "Firefox 可能正在使用系统 WPAD，扩展 API 无法读取。请在 Firefox 设置中选择其他代理方式后重试。"
+  },
+  "errorReadBodyGeneric": {
+    "message": "Proxima 无法读取浏览器当前的代理设置。请重试；如果仍然失败，请检查是否有其他扩展或策略在管理代理。"
+  },
+  "errorWriteTitle": { "message": "无法应用代理设置" },
+  "errorPrivate": { "message": "Firefox 需要隐私窗口权限才能修改代理设置。" },
+  "errorPolicy": { "message": "代理设置受策略管理，无法在此修改。" },
+  "errorUnsupported": { "message": "此平台不支持修改代理设置。" },
+  "errorNotApplied": { "message": "浏览器没有接受这次修改。" },
+  "errorGeneric": { "message": "发生未知错误。" },
+  "errorDetails": { "message": "技术细节" },
+
+  "a11yModeGroup": { "message": "代理模式" },
+  "a11yStatus": { "message": "代理状态" },
+  "a11yManualSection": { "message": "手动代理设置" }
+}
